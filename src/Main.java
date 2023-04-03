@@ -1,5 +1,8 @@
+import colourPicker.MyColourPicker;
+import colourPicker.MyColourPickerWindow;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello!");
+        MyColourPickerWindow myColourPicker = new MyColourPickerWindow();
     }
 }
